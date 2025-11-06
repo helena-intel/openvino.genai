@@ -11,7 +11,7 @@ from .utils import patch_awq_for_inference, get_ignore_parameters_flag
 import inspect
 
 PROMPTS_FILE = 'text_prompts.yaml'
-LONG_PROMPTS_FILE = 'text_long_prompts.yaml'
+LONG_PROMPTS_FILE = 'text_extra_long_prompts.yaml'
 
 
 @register_evaluator(
